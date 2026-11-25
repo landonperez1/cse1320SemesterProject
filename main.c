@@ -15,7 +15,7 @@ int userInput;
 
 printMenu();
 
-do { // breaks on inputs outide of an int
+do { 
     scanf("%d", &userInput);
     printf("debug message: input was %d\n", userInput);
 
