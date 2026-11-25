@@ -23,4 +23,6 @@ typedef struct player{ // values for players based on cavas exept last one didnt
 
 }Player;
 
+void clearInput(int *input);
+
 #endif
